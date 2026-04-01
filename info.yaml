@@ -19,7 +19,6 @@ project:
     - "ramp_gen.v"
     - "pwm_chan.v"
     - "i2c_slave.v"
-    - "exp_led_pwm_tb.v"
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:

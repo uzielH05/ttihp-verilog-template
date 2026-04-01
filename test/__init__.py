@@ -22,6 +22,6 @@ THE SOFTWARE.
 
 """
 
-from .version import __version__
+from version import __version__
 
-from .i2c_master import I2cMaster
+from i2c_master import I2cMaster

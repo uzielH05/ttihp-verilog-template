@@ -34,7 +34,7 @@ module tb ();
     end
 
   // Replace tt_um_example with your module name:
-  tt_um_spiff42_exp_led_pwm (
+  tt_um_spiff42_exp_led_pwm user_project(
 
       // Include power ports for the Gate Level test:
 `ifdef GL_TEST

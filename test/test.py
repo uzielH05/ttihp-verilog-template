@@ -8,7 +8,7 @@ from cocotb.triggers import Timer
 import I2cMaster
 
 @cocotb.test()
-async def test_pwm(dut):
+async def test(dut):
 
   i2c = I2cMaster(sda=dut.sda, sda_o=dut.sda_tb,
                   scl=dut.scl, scl_o=dut.scl_tb, speed=400e3)

@@ -15,7 +15,7 @@ async def test_pwm(dut):
 
   dut._log.info("Start")
 
-  clock = Clock(dut.clk, 30, units="ns")
+  clock = Clock(dut.clk, 30, unit="ns")
   cocotb.start_soon(clock.start())
 
   # Reset

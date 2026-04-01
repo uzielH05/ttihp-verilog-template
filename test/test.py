@@ -5,7 +5,7 @@ import cocotb
 from cocotb.clock import Clock
 from cocotb.triggers import ClockCycles
 from cocotb.triggers import Timer
-from .i2c_master import I2cMaster
+from i2c_master import I2cMaster
 
 @cocotb.test()
 async def test_pwm(dut):

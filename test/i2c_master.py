@@ -26,7 +26,7 @@ import logging
 
 from cocotb.triggers import RisingEdge, Timer
 
-from .version import __version__
+from version import __version__
 
 
 class I2cMaster:
